@@ -1,0 +1,24 @@
+{
+    "name": "Lecture 6",
+    "endpoint": "ese/ug218/su18/lecture6",
+    "src": [
+        "lecture.ipynb"
+    ],
+    "tests": {
+      "tests/question-6_1.py": "ok_test",
+      "tests/question-6_2.py": "ok_test",
+      "tests/question-6_3.py": "ok_test",
+      "tests/question-6_4.py": "ok_test"
+    },
+    "default_tests": [
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "lock",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
