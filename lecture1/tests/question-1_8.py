@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> np.allclose( perfect_egg(4), 70.29486548568015)
+          >>> np.allclose( perfect_egg(4), 326.2798626986453)
           True
           """,
           'hidden': False,
