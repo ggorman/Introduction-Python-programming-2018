@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.allclose( perfect_egg(20), 259.342856)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
